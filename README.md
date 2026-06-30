@@ -28,13 +28,10 @@ StudyMate is a web-based study assistant that helps students organize notes and 
 
 ## 📷 Screenshots
 
-<img width="574" height="412" alt="image" src="https://github.com/user-attachments/assets/8e8a42dc-cfcc-4d0b-ba02-2757d660eb63" />
-
-<img width="564" height="190" alt="image" src="https://github.com/user-attachments/assets/4a32f79c-5c2f-4776-b88f-4bf2763b174e" />
-
-<img width="560" height="425" alt="image" src="https://github.com/user-attachments/assets/2c469766-8871-4ddc-99dd-e2cf16993f51" />
-
-<img width="561" height="308" alt="image" src="https://github.com/user-attachments/assets/ce19d136-52b8-415b-a420-beac2d203a51" />
+### Add Study Notes
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b2ba04f7-6d80-4c1d-a53f-e017681ef7a3" />
+### Generated Quiz & Saved Notes
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8084eb6e-597c-4424-914b-29b71f22c775" />
 
 ## 🚀 Live Demo
 
