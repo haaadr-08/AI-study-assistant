@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyMate | AI Study Assistant</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+        <header class="app-header">
+            <h1>StudyMate</h1>
+            <p>Organize your notes, generate summaries, and create quizzes to study smarter.</p>
+        </header>
+
+        <section class="input-section">
+            <h2>Add Study Notes</h2>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject">
+                    <option value="">Select subject</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="topic">Topic</label>
+                <input type="text" id="topic" placeholder="Example: JavaScript Functions" />
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Paste your notes</label>
+                <textarea id="notes" placeholder="Paste your study notes here..."></textarea>
+                <p id="char-count">Characters: 0</p>
+                <p id="word-count">Words: 0</p>
+            </div>
+
+            <div class="form-group">
+                <label for="task">Choose task</label>
+                <select id="task">
+                    <option value="summary">Generate Summary</option>
+                    <option value="quiz">Generate Quiz</option>
+                    <option value="flashcards">Generate Flashcards</option>
+                </select>
+            </div>
+
+            <button id="generate-btn">Generate</button>
+        </section>
+
+        <section class="output-section">
+            <h2>Output</h2>
+            <div id="output-box">
+                <p>Your generated summary, quiz, or flashcards will appear here.</p>
+            </div>
+        </section>
+
+        <section class="saved-section">
+            <h2>Saved Notes (<span id="notes-count">0</span>)</h2>
+            <button id="clear-all-btn">Clear All Notes</button>
+
+            <select id="sort-notes">
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+                <option value="az">A-Z</option>
+                <option value="za">Z-A</option>
+            </select>
+
+            <input type="text" id="search-notes" placeholder="Search saved notes..." />
+            <div id="saved-notes">
+                <p>No saved notes yet.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>StudyMate © 2026 | Built with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
